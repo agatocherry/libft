@@ -23,7 +23,7 @@ Libft is a [42 school](https://www.42.fr/) project. It consists to recode the [l
 ### Installing
 Clone the repository :
 ```console
-$ git clone https://github.com/agatocherry/libft
+$ git clone https://github.com/agatocherry/libft.git
 ```
 
 Change it to your working directory and run :
