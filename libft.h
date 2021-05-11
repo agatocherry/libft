@@ -6,7 +6,7 @@
 /*   By: agcolas <agcolas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/05 23:51:00 by agcolas           #+#    #+#             */
-/*   Updated: 2021/05/11 11:02:15 by agcolas          ###   ########.fr       */
+/*   Updated: 2021/05/11 11:05:33 by agcolas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ char			**ft_split(char const *s, char c);
 char			*ft_strjoin(char const *s1, char const *s2);
 void			ft_putuint(unsigned long n);
 void			ft_puthexa_lower(unsigned long long int nb);
-void			ft_putnbr_hexa_upper(unsigned long long int nb);
+void			ft_puthexa_upper(unsigned long long int nb);
 
 /*
 ** fd
