@@ -2,9 +2,10 @@
 # Libft
 <!-- Quick presentation about the project -->
 Libft is a [42 school](https://www.42.fr/) project. It consists to recode the [libc](https://www.wikiwand.com/fr/Biblioth%C3%A8que_standard_du_C) library.
+
 <!-- If the project is visual, a little demo here -->
 <!-- And a funny sentence here -->
-> Compiling ...
+> Warning ! This is the new libft, with not all functions. The old is [here](https://github.com/agatocherry/libft/tree/5ede8da9a9ced8b61943cef84c4c6ad20233ad33).
 
 
 <!-- Table of content -->
@@ -48,7 +49,7 @@ This part is for 42 students. Please, don't copy and past, the key of the progre
 
 <!-- Norm facts -->
 ### Norm
-[Norm v2](https://github.com/42Paris/norminette), here a [workflow](./.github/workflows/norm.yml) feel free to use it.
+[Norm v3](https://github.com/42School/norminette), here a [workflow](./.github/workflows/norminette.yml) feel free to use it.
 
 <!-- Resources I used -->
 ### Resources

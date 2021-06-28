@@ -1,19 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
+/*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: agcolas <agcolas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/17 16:11:00 by agcolas           #+#    #+#             */
-/*   Updated: 2020/11/17 16:14:33 by agcolas          ###   ########.fr       */
+/*   Created: 2021/06/28 18:22:42 by agcolas           #+#    #+#             */
+/*   Updated: 2021/06/28 18:25:02 by agcolas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#ifndef LIBFT_H
+# define LIBFT_H
 
-void	ft_putendl_fd(char *s, int fd)
-{
-	ft_putstr_fd(s, fd);
-	ft_putchar_fd('\n', fd);
-}
+char	*to_lower(char *str);
+int		ft_strncmp(const char *s1, const char *s2, unsigned int n);
+
+#endif

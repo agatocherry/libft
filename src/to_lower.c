@@ -1,42 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_puthexa_lower.c                                 :+:      :+:    :+:   */
+/*   to_lower.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: agcolas <agcolas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/04/30 16:16:03 by agcolas           #+#    #+#             */
-/*   Updated: 2021/05/11 11:00:37 by agcolas          ###   ########.fr       */
+/*   Created: 2021/06/28 18:21:27 by agcolas           #+#    #+#             */
+/*   Updated: 2021/06/28 18:24:15 by agcolas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
-void	ft_puthexa_lower(unsigned long long int nb)
+char	*to_lower(char *str)
 {
-	char	hexa[16];
-	int		i;
-	int		j;
+	int	i;
 
 	i = 0;
-	while (i < 10)
+	while (str[i] != '\0')
 	{
-		hexa[i] = '0' + i;
+		if (str[i] >= 'A' && str[i] <= 'Z')
+			str[i] += 32;
 		i++;
 	}
-	j = 0;
-	while (j < 6)
-	{
-		hexa[i] = 'a' + j;
-		j++;
-		i++;
-	}
-	hexa[i] = '\0';
-	if (nb >= 16)
-	{
-		ft_puthexa_lower(nb / 16);
-		ft_putchar(hexa[nb % 16]);
-	}
-	else
-		ft_putchar(hexa[nb % 16]);
+	return (str);
 }
